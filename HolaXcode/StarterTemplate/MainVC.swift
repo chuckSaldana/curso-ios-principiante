@@ -17,10 +17,13 @@ import UIKit
 
 class MainVC: UIViewController {
 
+    @IBOutlet weak var saludoLbl: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.saludoLbl.text = "Hola Xcode!"
     }
 
     override func didReceiveMemoryWarning() {
